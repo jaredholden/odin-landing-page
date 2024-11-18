@@ -87,3 +87,25 @@ button {
     gap: 25px;
     text-wrap: wrap;
 }
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-signature {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: large;
+}
