@@ -28,6 +28,10 @@ button {
     border-radius: 8px;
 }
 
+footer {
+    
+}
+
 .nav-bar {
     display: flex;
     align-items: center;
@@ -108,4 +112,40 @@ button {
     justify-content: flex-end;
     font-weight: bolder;
     font-size: large;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+    padding: 75px;
+}
+
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    width: 850px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.action-button {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
