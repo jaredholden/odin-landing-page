@@ -55,9 +55,35 @@ button {
     padding-right: 300px;
     height: 400px;
 }
-/*
-.three-things {
+
+.random-text {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
 }
-*/
+
+.blue-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.blue-one, .blue-two, .blue-three, .blue-four {
+    width: 160px;
+    height: 160px;
+    border: 3px solid blue;
+    border-radius: 20px;
+}
+
+.boxes-subtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 25px;
+    text-wrap: wrap;
+}
